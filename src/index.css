@@ -55,7 +55,7 @@ footer p {
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
   width: 240px;
-  margin: 16px;
+  margin-top: 70px;
   float: left;
 }
 .note h1 {
@@ -101,6 +101,21 @@ footer p {
   border:none;
   border-radius: 50%;
   font-size: 2rem;
-  position:absolute;
-  left:
+  position:relative;
+  left: 380px;
+  top:25px;
+  color:#fff;
+}
+
+.delete {
+  cursor: pointer;
+  background-color: #e63a0f;
+  border:none;
+  padding: 2% 4%;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #fff;
+  position: relative;
+  bottom: 90px;
+  left:210px;
 }

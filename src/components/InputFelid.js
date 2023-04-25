@@ -48,8 +48,8 @@ const deleteItem =(index) =>{
   return (
     <div className="inputFelid">
       <form onSubmit={formSubmit}>
-        <input onChange= {handleChange} value={inputValue.title} name="title" placeholder="Title" />
-        <textarea onChange= {handleChange} value={inputValue.content} name="content" placeholder="Take a note..." rows="3" />
+        <input onChange= {handleChange} value={inputValue.title} name="title" placeholder="Title"/>
+        <textarea onChange= {handleChange} value={inputValue.content} name="content" placeholder="Take a note..." rows="3"/>
         <button  className="btn btnAdd" onClick={addItem} >+</button>
       </form>
       {addValue.map((item, index) => {
