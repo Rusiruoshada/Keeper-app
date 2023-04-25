@@ -68,3 +68,39 @@ footer p {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
+/*inputFelid*/
+.inputFelid {
+  margin: 30px auto 20px auto;
+  background-color: #ffffff;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.inputFelid input , textarea{
+  border: none;
+  outline: none;
+  display:block;
+  width: 100%;
+  text-align: start;
+  padding:10px 15px 0 15px;
+  font-family: "Architects Daughter", cursive;
+  font-size:16px;
+}
+
+.inputFelid input {
+  border-bottom: 0.5px solid #dadada;
+  border-radius: 10px 10px 0 0;
+}
+
+.btn{
+  cursor: pointer;
+  padding: 2%;
+  background-color: #f5ba13;
+  border:none;
+  border-radius: 50%;
+  font-size: 2rem;
+  position:absolute;
+  left:
+}
