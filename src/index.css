@@ -22,7 +22,10 @@ html {
 }
 body {
   background: #eee;
+  background-color: #91b3e7;
+background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
   padding: 0 16px;
+  
 }
 
 header {
@@ -96,13 +99,13 @@ footer p {
 
 .btn{
   cursor: pointer;
-  padding: 2%;
+  padding: 2% 4%;
   background-color: #f5ba13;
   border:none;
   border-radius: 50%;
   font-size: 2rem;
   position:relative;
-  left: 380px;
+  left: 370px;
   top:25px;
   color:#fff;
 }

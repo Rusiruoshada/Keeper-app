@@ -1,3 +1,4 @@
+import React from "react";
 import Heading from "./components/Header";
 import Footer from "./components/footer";
 import InputFelid from "./components/InputFelid";
